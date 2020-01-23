@@ -64,3 +64,7 @@ numbers = [
 [21, 4, 6, 17],
 [3, 5, 26, 3] ]
 console.log(numbers[1][1], numbers[4][2], numbers[5][3], numbers[2][3], numbers[2][1])
+
+var t1 = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$renderer$as$properties$in$its $HTML$tag.$A$component$cannot$directly$modify$any$properties$passed$to$it,$but$can$be$passed$ callback$functions$that$do$modify$values.$This$mechanism's$promise$is$expressed$as$properties $flow$down;$actions$flow$up."
+var text1 = t1.replace(/$/g," ");
+console.log(text1)
